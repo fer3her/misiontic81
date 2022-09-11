@@ -5737,19 +5737,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jose Hernandez\\.nuget\\packages\\": {}
+    "C:\\Users\\DAILY VARGAS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jose Hernandez\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\DAILY VARGAS\\OneDrive\\Escritorio\\Proyecto Equipo 2\\misiontic81\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
       "projectName": "ProyectoCiclo3.App.Frontend",
-      "projectPath": "C:\\Users\\Jose Hernandez\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\Jose Hernandez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jose Hernandez\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\obj\\",
+      "projectPath": "C:\\Users\\DAILY VARGAS\\OneDrive\\Escritorio\\Proyecto Equipo 2\\misiontic81\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\DAILY VARGAS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DAILY VARGAS\\OneDrive\\Escritorio\\Proyecto Equipo 2\\misiontic81\\ProyectoCiclo3.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jose Hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DAILY VARGAS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5760,8 +5760,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Jose Hernandez\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\Jose Hernandez\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+            "C:\\Users\\DAILY VARGAS\\OneDrive\\Escritorio\\Proyecto Equipo 2\\misiontic81\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\DAILY VARGAS\\OneDrive\\Escritorio\\Proyecto Equipo 2\\misiontic81\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
             }
           }
         }
