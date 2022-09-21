@@ -7,12 +7,3 @@ C:\Users\Jose Hernandez\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\ob
 C:\Users\Jose Hernandez\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Jose Hernandez\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 C:\Users\Jose Hernandez\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
-C:\Users\DAILY VARGAS\OneDrive\Escritorio\Proyecto Equipo 2\misiontic81\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.deps.json
-C:\Users\DAILY VARGAS\OneDrive\Escritorio\Proyecto Equipo 2\misiontic81\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
-C:\Users\DAILY VARGAS\OneDrive\Escritorio\Proyecto Equipo 2\misiontic81\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
-C:\Users\DAILY VARGAS\OneDrive\Escritorio\Proyecto Equipo 2\misiontic81\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
-C:\Users\DAILY VARGAS\OneDrive\Escritorio\Proyecto Equipo 2\misiontic81\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
-C:\Users\DAILY VARGAS\OneDrive\Escritorio\Proyecto Equipo 2\misiontic81\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
-C:\Users\DAILY VARGAS\OneDrive\Escritorio\Proyecto Equipo 2\misiontic81\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\DAILY VARGAS\OneDrive\Escritorio\Proyecto Equipo 2\misiontic81\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
-C:\Users\DAILY VARGAS\OneDrive\Escritorio\Proyecto Equipo 2\misiontic81\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
