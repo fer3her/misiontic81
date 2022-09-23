@@ -35,7 +35,11 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             Encomiendas=repositorioEncomienda.GetAll();
             return Page(); 
         }
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
         public IActionResult OnPost(int id, int origen, int destino, string fecha, string hora, int encomienda)
         {
             if(!ModelState.IsValid)
@@ -45,6 +49,10 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             Servicio = repositorioServicio.Update(id, origen, destino, fecha, hora, encomienda);            
             return RedirectToPage("./List");
         }
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
     }
 }

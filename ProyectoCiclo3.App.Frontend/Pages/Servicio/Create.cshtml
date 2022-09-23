@@ -2,7 +2,7 @@
 @model ProyectoCiclo3.App.Frontend.Pages.FormServicioModel
 @{
 }
- 
+
 <div class="text-center">
   <form method="post">
     <label for="origen" class="form-label">Origen:</label>
@@ -21,6 +21,15 @@
         <option value="@usuario.id">@usuario.nombre @usuario.apellidos - @usuario.ciudad</option>
       }
     </select>
+<<<<<<< HEAD
+
+    <label for="fecha" class="form-label">Fecha:</label>
+    <input type="date" class="form-control" id="fecha" placeholder="Fecha" name="fecha" required>
+
+    <label for="hora" class="form-label">Hora:</label>
+    <input type="time" class="form-control" id="hora" placeholder="Hora" name="hora" required>
+
+=======
  
     <label for="fecha" class="form-label">Fecha:</label>
     <input type="date" class="form-control" id="fecha" placeholder="Fecha" name="fecha" required>
@@ -28,6 +37,7 @@
     <label for="hora" class="form-label">Hora:</label>
     <input type="time" class="form-control" id="hora" placeholder="Hora" name="hora" required>
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
     <label for="encomienda" class="form-label">Encomienda:</label>
     <select name="encomienda" class="form-control" required>
       <option value="">-</option>
@@ -36,8 +46,16 @@
         <option value="@encomienda.id">@encomienda.descripcion</option>
       }
     </select>
+<<<<<<< HEAD
+
+    <hr>
+    <button type="submit" class="btn btn-success">Enviar</button>
+  </form>
+</div>
+=======
  
     <hr>
     <button type="submit" class="btn btn-success">Enviar</button>
   </form>
 </div>
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0

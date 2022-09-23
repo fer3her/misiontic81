@@ -9,7 +9,11 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
     { 
         
         private readonly AppContext _appContext = new AppContext();   
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
         public IEnumerable<Encomienda> GetAll()
         {
            return _appContext.Encomiendas;
@@ -18,7 +22,11 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Encomienda GetWithId(int id){
             return _appContext.Encomiendas.Find(id);
         }
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
         public Encomienda Update(Encomienda newEncomienda){
             var encomienda = _appContext.Encomiendas.Find(newEncomienda.id);
             if(encomienda != null){
@@ -39,7 +47,11 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             _appContext.SaveChanges();
             return addEncomienda.Entity;
         }
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
         public Encomienda Delete(int id)
         {
             var encomienda = _appContext.Encomiendas.Find(id);
@@ -50,6 +62,10 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         }
          return null;  
         }
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
     }
 }

@@ -3,14 +3,22 @@ using ProyectoCiclo3.App.Dominio;
 using System.Linq;
 using System;
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
 namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 {
     public class RepositorioServicios
     { 
         
         private readonly AppContext _appContext = new AppContext();   
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
         public IEnumerable<Servicio> GetAll()
         {
            return _appContext.Servicios.Include(u => u.origen)
@@ -21,8 +29,13 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Servicio GetWithId(int id){
             return _appContext.Servicios.Find(id);
         }
+<<<<<<< HEAD
+
+        public Servicio Update(int id, int origen, int destino, string fecha, string hora, int encomienda){
+=======
  
        public Servicio Update(int id, int origen, int destino, string fecha, string hora, int encomienda){
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
             var servicio = _appContext.Servicios.Find(id);
             if(servicio != null){
                 servicio.destino = _appContext.Usuarios.Find(destino);
@@ -34,6 +47,25 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
                  _appContext.SaveChanges();
             }
         return servicio;
+<<<<<<< HEAD
+        }
+        
+
+        public Servicio Create(int origen, int destino, string fecha, string hora, int encomienda)
+        {
+            var newServicio = new Servicio();
+            newServicio.destino = _appContext.Usuarios.Find(destino);
+            newServicio.origen = _appContext.Usuarios.Find(origen);  
+            newServicio.encomienda = _appContext.Encomiendas.Find(encomienda);         
+            newServicio.fecha = DateTime.Parse(fecha);
+            newServicio.hora = hora;
+
+           var addServicio = _appContext.Servicios.Add(newServicio);
+            //Guardar en base de datos
+            _appContext.SaveChanges();
+            return addServicio.Entity;
+=======
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
         }
  
         public Servicio Create(int origen, int destino, string fecha, string hora, int encomienda)
@@ -61,6 +93,10 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         }
          return null;  
         }
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
     }
 }

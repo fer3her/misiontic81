@@ -4,11 +4,19 @@
     var servicio = Model.Servicio;
     
 }
+<<<<<<< HEAD
+
+<div class="text-center">
+  <form method="post">
+    <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" value="@servicio.id" readonly>
+
+=======
  
 <div class="text-center">
   <form method="post">
     <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" value="@servicio.id" readonly>
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
     <label for="origen" class="form-label">Origen:</label>
     <select name="origen" class="form-control">
       <option value="">-</option>
@@ -25,6 +33,15 @@
         <option value="@usuario.id" >@usuario.nombre @usuario.apellidos - @usuario.ciudad</option>
       }
     </select>
+<<<<<<< HEAD
+
+    <label for="fecha" class="form-label">Fecha:</label>
+    <input type="date" class="form-control" id="fecha" placeholder="Fecha" name="fecha" required value="@servicio.fecha">
+
+    <label for="hora" class="form-label">Hora:</label>
+    <input type="time" class="form-control" id="hora" placeholder="Hora" name="hora" required value="@servicio.hora">
+
+=======
  
     <label for="fecha" class="form-label">Fecha:</label>
     <input type="date" class="form-control" id="fecha" placeholder="Fecha" name="fecha" required value="@servicio.fecha">
@@ -32,6 +49,7 @@
     <label for="hora" class="form-label">Hora:</label>
     <input type="time" class="form-control" id="hora" placeholder="Hora" name="hora" required value="@servicio.hora">
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
     <label for="encomienda" class="form-label">Encomienda:</label>
     <select name="encomienda" class="form-control" required>
       <option value="">-</option>
@@ -40,7 +58,11 @@
         <option value="@encomienda.id">@encomienda.descripcion</option>
       }
     </select>
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
     <hr>
     <button type="submit" class="btn btn-success">Enviar</button>
   </form>

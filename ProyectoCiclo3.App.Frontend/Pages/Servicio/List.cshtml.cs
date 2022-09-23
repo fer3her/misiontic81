@@ -35,6 +35,10 @@ namespace ProyectoCiclo3.App.Frontend.Pages
         }
         return RedirectToPage("./List");
     }
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
     }
 }
