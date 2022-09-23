@@ -47,25 +47,21 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             _appContext.SaveChanges();
             return addEncomienda.Entity;
         }
-<<<<<<< HEAD
-
-=======
  
->>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
-        public Encomienda Delete(int id)
+       public bool Delete(int id)
         {
-            var encomienda = _appContext.Encomiendas.Find(id);
-        if (encomienda != null){
-            _appContext.Encomiendas.Remove(encomienda);
-            //Guardar en base de datos
-            _appContext.SaveChanges();
+            try{
+                var encomienda = _appContext.Encomiendas.Find(id);
+                if (encomienda != null){
+                    _appContext.Encomiendas.Remove(encomienda);
+                    //Guardar en base de datos
+                    _appContext.SaveChanges();
+                }
+                return false;
+            }catch(Exception e){
+                return true;                  
+            }
         }
-         return null;  
-        }
-<<<<<<< HEAD
-
-=======
  
->>>>>>> 20800591d2d31546e4c77642c85baf802eb0c5d0
     }
 }
